@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arav Goyal — Portfolio</title>
+  <meta name="description" content="Portfolio of Arav Goyal — AI & coding enthusiast. Projects, achievements and contact." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-grid">
+      <div class="brand">
+        <a href="#hero" class="brand-link" aria-label="Go to top">
+          <h1>Arav Goyal</h1>
+        </a>
+        <p class="tagline">Curious mind • Challenge seeker • Future AI-driven entrepreneur</p>
+      </div>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#sports">Sports</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="mobile-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        ☰
+      </button>
+    </div>
+
+    <!-- mobile nav -->
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#sports">Sports</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2 id="hero-title">Hi — I’m <span class="accent">Arav</span></h2>
+          <p class="lead">A 17-year-old builder at heart. I love solving puzzles, taking on challenges, and learning by doing — from Rubik’s cubes to AI projects. I build, iterate, and ship small products that teach me along the way.</p>
+
+          <div class="cta-row">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <ul class="quick-facts" aria-hidden="false">
+            <li>JEE aspirant & tech learner</li>
+            <li>AI & coding projects</li>
+            <li>Rubik’s cuber • Chess • Card towers</li>
+          </ul>
+        </div>
+
+        <aside class="hero-right" aria-label="Profile">
+          <div class="photo-wrap">
+            <img class="hero-photo" src="arav_photo.png" alt="Portrait of Arav Goyal" loading="lazy" width="600" height="600">
+          </div>
+
+          <div class="contacts-compact">
+             <a title="LinkedIn" href="https://www.linkedin.com/in/arav012g/" target="_blank" rel="noopener">
+             <img src="icon-linkedin.png" alt="LinkedIn icon" loading="lazy">
+             </a>
+             <a title="WhatsApp" href="https://wa.me/919090409003" target="_blank" rel="noopener">
+             <img src="icon-whatsapp.png" alt="WhatsApp icon" loading="lazy">
+              </a>
+          </div>
+
+<p style="margin-top:8px; color:var(--muted); font-size:0.9rem;">
+  arav012g@gmail.com
+</p>
+
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2 id="about-title">About Me</h2>
+          <p>Ever since childhood, I’ve been fascinated by how things work — taking things apart, solving puzzles, and experimenting. That curiosity matured into coding and AI: I learn by building. I take on hard challenges (Rubik’s cubes, long song practice, card towers) to develop patience and methodical thinking.</p>
+          <p>My current focus: building small, useful apps and games that teach me product thinking and software skills. I want to build AI-powered products that help people learn and solve problems.</p>
+
+          <div class="about-bullets">
+            <div>🧠 Problem solver — logical approach & persistence</div>
+            <div>🎮 Game dev / UI — interactive demos & small engines</div>
+            <div>🚀 Product-minded — shipping small, polished projects</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Selected Projects</h2>
+        <p class="muted">(Each project shows one screenshot. Demos / code links open in a new tab.)</p>
+
+        <div class="projects-grid">
+          <!-- card template: data-project equals key used in the JS projects map -->
+          <article class="project-card" data-project="infinicalc" tabindex="0" role="button" aria-pressed="false">
+            <div class="thumb">
+              <img src="infiniCalc.png" alt="InfiniCalc screenshot" loading="lazy" width="1200" height="675">
+            </div>
+            <div class="card-body">
+              <h3>InfiniCalc</h3>
+              <p class="short">Advanced interactive calculator with polished UI and precision-first layout.</p>
+              <div class="card-actions">
+                <a class="btn-sm" href="https://itsaravg.github.io/InfiniCalc/" target="_blank" rel="noopener">Demo / Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="pixel-run" tabindex="0" role="button" aria-pressed="false">
+            <div class="thumb">
+              <img src="pixel-run.png" alt="Pixel Run screenshot" loading="lazy" width="1200" height="675">
+            </div>
+            <div class="card-body">
+              <h3>Neon Cube Runner</h3>
+              <p class="short">A small 3D endless-runner demo — procedural obstacles, smooth camera and controls.</p>
+              <div class="card-actions">
+                <a class="btn-sm" href="https://itsaravg.github.io/Neon-Cube-Runner/" target="_blank" rel="noopener">Demo / Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="skycatch" tabindex="0" role="button" aria-pressed="false">
+            <div class="thumb">
+              <img src="skycatch-rush.png" alt="SkyCatch Rush screenshot" loading="lazy" width="1200" height="675">
+            </div>
+            <div class="card-body">
+              <h3>SkyCatch Rush</h3>
+              <p class="short">Catch falling objects with increasing difficulty and high-score tracking.</p>
+              <div class="card-actions">
+                <a class="btn-sm" href="https://itsaravg.github.io/SkyCatchRush/" target="_blank" rel="noopener">Demo / Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="chess" tabindex="0" role="button" aria-pressed="false">
+            <div class="thumb">
+              <img src="chess.png" alt="Classic Chess screenshot" loading="lazy" width="1200" height="675">
+            </div>
+            <div class="card-body">
+              <h3>Classic Chess</h3>
+              <p class="short">Local chess app with AI levels, hint system and move history.</p>
+              <div class="card-actions">
+                <a class="btn-sm" href="https://itsaravg.github.io/Classic-Chess/" target="_blank" rel="noopener">Demo / Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="tilebrain" tabindex="0" role="button" aria-pressed="false">
+            <div class="thumb">
+              <img src="tilebrain-2048.png" alt="TileBrain 2048 screenshot" loading="lazy" width="1200" height="675">
+            </div>
+            <div class="card-body">
+              <h3>TileBrain 2048</h3>
+              <p class="short">2048 puzzle with AI modes (expectimax), undo and smooth visuals.</p>
+              <div class="card-actions">
+                <a class="btn-sm" href="https://itsaravg.github.io/TileBrain-2048-/" target="_blank" rel="noopener">Demo / Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="memory" tabindex="0" role="button" aria-pressed="false">
+            <div class="thumb">
+              <img src="memory-flip.png" alt="Memory Flip screenshot" loading="lazy" width="1200" height="675">
+            </div>
+            <div class="card-body">
+              <h3>Memory Flip</h3>
+              <p class="short">Classic card matching game with flip animation and levels.</p>
+              <div class="card-actions">
+                <a class="btn-sm" href="https://itsaravg.github.io/Memory-Flip/" target="_blank" rel="noopener">Demo / Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="tic-tac-glow" tabindex="0" role="button" aria-pressed="false">
+            <div class="thumb">
+              <img src="tic-tac-glow.png" alt="Tic Tac Glow screenshot" loading="lazy" width="1200" height="675">
+            </div>
+            <div class="card-body">
+              <h3>Tic Tac Glow</h3>
+              <p class="short">Glow-styled tic-tac-toe with AI (easy/medium/hard) and a polished UI.</p>
+              <div class="card-actions">
+                <a class="btn-sm" href="https://itsaravg.github.io/Tic-Tac-Glow/" target="_blank" rel="noopener">Demo / Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section achievements" aria-labelledby="achievements-title">
+      <div class="container">
+        <h2 id="achievements-title">Achievements & Skills</h2>
+
+        <div class="ach-grid">
+          <div class="ach-card">
+            <h3>Rubik’s Cubes</h3>
+            <p>Solved 12+ cubes (mirror, ghost, pyramids). Strengthened spatial reasoning & speed.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>ITHO — Gold Medal</h3>
+            <p>Gold Medal in International Talent Hunt Olympiad (concept clarity and speed).</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>Abacus (Level 1–4)</h3>
+            <p>Trained in mental arithmetic — improved calculation speed and focus.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>Breathless Song Challenge</h3>
+            <p>Learned and practiced a difficult song end-to-end demonstrating persistence.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>Card Towers & Domino Chains</h3>
+            <p>Projects that build patience, precision and planning skills.</p>
+          </div>
+
+          <div class="ach-card">
+            <h3>Chess & Strategy</h3>
+            <p>Regular player — strategic planning and pattern recognition.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPORTS -->
+    <section id="sports" class="section dark-section" aria-labelledby="sports-title">
+      <div class="container">
+        <h2 id="sports-title">Sports & Activities</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Basketball</h3>
+            <p>Team discipline, fitness and coordination.</p>
+          </div>
+          <div class="card">
+            <h3>Swimming</h3>
+            <p>Endurance, focus and well-being.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-left">
+          <h2 id="contact-title">Contact</h2>
+          <p class="muted">Email | LinkedIn | WhatsApp — click icons to open.</p>
+
+          <div class="contact-icons">
+            <a id="linkedin-link" target="_blank" rel="noopener">
+            <img src="icon-linkedin.png" alt="">
+            </a>
+            <a id="whatsapp-link" target="_blank" rel="noopener">
+            <img src="icon-whatsapp.png" alt="">
+            </a>
+          </div>
+
+<p style="margin-top:10px; color:var(--muted); font-size:1rem;">
+  arav012g@gmail.com
+</p>
+
+        </div>
+
+        <div class="contact-right">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PROJECT MODAL -->
+  <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close project details">✕</button>
+      <div class="modal-body">
+        <img id="modal-image" src="" alt="" loading="lazy">
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+        <div class="modal-actions">
+          <a id="modal-demo" class="btn-sm" href="#" target="_blank" rel="noopener">Demo / Code</a>
+          <button id="modal-close-btn" class="btn-sm ghost">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> Arav Goyal • Built with curiosity & code.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
